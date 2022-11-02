@@ -1,0 +1,70 @@
+.container{
+  width: 100%;
+  margin: auto;
+}
+header{
+
+  display: flex;
+  background-color: floralwhite;
+  padding: 2rem;
+  align-items: center;
+}
+.logo{
+  font-size: 20pt;
+  font-family: Calibri;
+  font-weight: bold;
+  display: block;
+}
+
+body {
+  background-image: url("cb1.svg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+html{
+  font-family: Calibri;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-left: 100rem;
+  margin-right: 5rem;
+  margin-top: -4%;
+  padding: 0;
+
+}
+
+li{
+    width: calc(100% / 3);
+}
+
+li a {
+  background-color: floralwhite;
+  color: #030304;
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 3rem;
+  text-decoration: none;
+
+}
+li a:hover {
+    background-color: #1866d5;
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    width: 80%;
+  }
+  nav{
+    float: right;
+  }
+  li {
+    padding: 8px 8px;
+  }
+}
