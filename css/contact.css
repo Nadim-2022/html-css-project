@@ -1,70 +1,73 @@
 .container{
-  width: 100%;
-  margin: auto;
+    width: 100%;
+    margin: auto;
+    background-color:rgb(255,255,255, 0.3)
+}
+body{
+    margin: 0;
+    background-image: url("ccy2.svg");
 }
 header{
-
-  display: flex;
-  background-color: floralwhite;
-  padding: 2rem;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: wheat;
+    image-rendering: auto;
+    margin: auto;
 }
 .logo{
-  font-size: 20pt;
-  font-family: Calibri;
-  font-weight: bold;
-  display: block;
-}
+    font-family: Cambria;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    background-color: black;
+    padding: 2rem;
 
-body {
-  background-image: url("cb1.svg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
 }
-html{
-  font-family: Calibri;
-}
+nav{
+    width: auto;
 
+}
 ul{
-  display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-  margin-left: 100rem;
-  margin-right: 5rem;
-  margin-top: -4%;
-  padding: 0;
-
-}
-
-li{
+    display: flex;
+    list-style-type: none;
     width: calc(100% / 3);
+
 }
+li{
 
-li a {
-  background-color: floralwhite;
-  color: #030304;
-  width: 100%;
-  display: block;
-  text-align: center;
-  line-height: 3rem;
-  text-decoration: none;
-
+}
+li a{
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding: 1rem;
 }
 li a:hover {
-    background-color: #1866d5;
+    background-color: white;
+}
+main{
+    display: flex;
+
+}
+.contact{
+    margin: 10%;
+    font-family: "Cambria Math"
+}
+.map{
+    float: right;
+    width: auto;
+    margin: auto;
+}
+.map img{
+    height: 400px;
+    margin: auto;
 }
 
 @media screen and (min-width: 769px) {
-  .container {
-    width: 80%;
-  }
-  nav{
-    float: right;
-  }
-  li {
-    padding: 8px 8px;
-  }
+    .container {
+        width: 80%;
+
+    }
+
 }

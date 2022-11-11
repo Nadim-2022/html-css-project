@@ -1,70 +1,100 @@
 .container{
-  width: 100%;
-  margin: auto;
+    width: 100%;
+    margin: auto;
+    background-color:rgb(255,255,255, 0.3)
+}
+body{
+    margin: 0;
+    background-image: url("ccy.svg");
 }
 header{
-
-  display: flex;
-  background-color: floralwhite;
-  padding: 2rem;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: wheat;
+    image-rendering: auto;
+    margin: auto;
 }
 .logo{
-  font-size: 20pt;
-  font-family: Calibri;
-  font-weight: bold;
-  display: block;
-}
+    font-family: Cambria;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    background-color: red;
+    padding: 2rem;
 
-body {
-  background-image: url("cb1.svg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
 }
-html{
-  font-family: Calibri;
+nav{
+    width: auto;
 }
-
 ul{
-  display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-  margin-left: 100rem;
-  margin-right: 5rem;
-  margin-top: -4%;
-  padding: 0;
-
-}
-
-li{
+    display: flex;
+    list-style-type: none;
     width: calc(100% / 3);
+
 }
+li{
 
-li a {
-  background-color: floralwhite;
-  color: #030304;
-  width: 100%;
-  display: block;
-  text-align: center;
-  line-height: 3rem;
-  text-decoration: none;
-
+}
+li a{
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding: 1rem;
 }
 li a:hover {
-    background-color: #1866d5;
+    background-color: white;
+}
+.articlee {
+    text-align: center;
+    font-family: "Cambria Math";
+
+}
+h1{
+    margin: 10%;
+}
+figure{
+    margin-top: 15rem;
+   margin: auto;
+}
+img{
+    height: 342px;
+    width: 80%;
+    margin: auto;
+
+}
+p{
+    margin: 5%;
+    align-content: center;
+}
+.column{
+    display: inline-flex;
+
+}
+article{
+    width: calc(100%/4);
+    align-content: center;
+    margin: auto;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+.column img{
+    width: 100%;
 }
 
+h3{
+    text-align: left;
+    padding: 1rem;
+}
 @media screen and (min-width: 769px) {
-  .container {
-    width: 80%;
-  }
-  nav{
-    float: right;
-  }
-  li {
-    padding: 8px 8px;
-  }
+    .container {
+        width: 80%;
+
+    }
+
 }
